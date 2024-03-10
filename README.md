@@ -21,17 +21,17 @@ Este proyecto analiza datos del Informe Mundial de la Felicidad para responder a
 
 ## Metodología
 
-Para realizar este análisis, hemos seguido una metodología consistente que implica:
+Para realizar este análisis, implica:
 
-- **Carga de Datos**: Importamos los conjuntos de datos del Informe Mundial de la Felicidad en DataFrames de Spark.
-- **Limpieza y Preparación de Datos**: Aseguramos que los datos estén en formatos adecuados y libres de inconsistencias.
-- **Análisis Exploratorio**: Realizamos una exploración inicial para entender la distribución y las características clave de los datos.
-- **Respuesta a Preguntas de Investigación**: Utilizamos funciones de Spark SQL y Spark DataFrame API para filtrar, ordenar y calcular estadísticas relevantes que responden a nuestras preguntas de investigación.
-- **Visualización de Resultados**: Aunque el enfoque principal ha sido el análisis cuantitativo, donde fue posible, visualizamos los resultados para una mejor interpretación.
+- **Carga de Datos**: Importar los conjuntos de datos del Informe Mundial de la Felicidad en DataFrames de Spark.
+- **Limpieza y Preparación de Datos**: Asegurar que los datos cuenten con los formatos adecuados, tipos de datos y libres de inconsistencias.
+- **Análisis Exploratorio**: Realizar una exploración inicial para entender la distribución y las características de los datos.
+- **Respuesta a Preguntas de Investigación**: Utilizar funciones de Spark SQL y Spark DataFrame API para filtrar, ordenar y calcular estadísticas que responden las preguntas planteadas.
+- **Visualización de Resultados**: Mostrar la información por medio del comando display().
 
 ## Herramientas Utilizadas
 
-- **Databricks**: Plataforma de análisis basada en la nube que proporciona un entorno interactivo para trabajar con notebooks.
+- **Databricks**: Plataforma de análisis basada en la nube que proporciona un entorno interactivo para trabajar con notebooks de Scala y Python.
 - **Apache Spark**: Motor de análisis distribuido que facilita el manejo y procesamiento de grandes conjuntos de datos.
 - **Scala**: Lenguaje de programación utilizado para implementar las transformaciones y análisis de datos dentro de los notebooks de Databricks.
 
@@ -39,6 +39,6 @@ Para realizar este análisis, hemos seguido una metodología consistente que imp
 
 Este análisis se encuentra estructurado en un notebook de Databricks. Para replicar o extender el estudio, se recomienda:
 
-1. Importar el notebook a tu propio entorno de Databricks.
-2. Asegurarte de tener acceso a los conjuntos de datos del Informe Mundial de la Felicidad y cargarlos en Databricks.
-3. Ejecutar las celdas del notebook secuencialmente para comprender el flujo de análisis y obtener los resultados.
+1. Importar el notebook a un entorno de Databricks.
+2. Cargar los archivos "world-happiness-report-2021.csv" y "world-happiness-report.csv" en Databricks y asegurarse de tener el modo DBFS activo.
+3. Ejecutar las celdas del notebook secuencialmente para comprender el flujo de análisis e ir obteniendo los resultados.
