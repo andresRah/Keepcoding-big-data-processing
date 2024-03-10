@@ -5,7 +5,8 @@ Keepcoding Big Data Processing
 
 Este proyecto analiza datos del Informe Mundial de la Felicidad para responder a varias preguntas clave sobre la felicidad en diferentes países y a lo largo de los años. El análisis se realiza utilizando un notebook de Scala en la plataforma Databricks. https://www.databricks.com/
 
-Mayor detalle de esta implementación en el siguiente link de Medium: https://medium.com/@andres.arevalopar/an%C3%A1lisis-de-la-felicidad-mundial-221140c41098
+Mayor detalle de esta implementación en el siguiente link de Medium: 
+https://medium.com/@andres.arevalopar/an%C3%A1lisis-de-la-felicidad-mundial-221140c41098
 
 ## Preguntas de Investigación
 
