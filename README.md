@@ -17,6 +17,10 @@ Este proyecto analiza datos del Informe Mundial de la Felicidad para responder a
 
 5. **Variación porcentual del GDP promedio mundial**: Calculamos cómo varió el GDP promedio a nivel mundial de 2020 a 2021, especificando si hubo un aumento o una disminución.
 
+La variación porcentual del GDP promedio mundial entre 2020 y 2021, para este cálculo primero necesitamos calcular el GDP promedio para cada uno de esos años y luego aplicar la fórmula de variación porcentual. La fórmula de variación porcentual se define como:
+
+![image](https://github.com/andresRah/Keepcoding-big-data-processing/assets/10521199/d1b6956e-5714-453b-a8da-dd3f76f2f339)
+
 6. **País con mayor expectativa de vida y su valor en 2019**: Identificamos el país con la mayor expectativa de vida saludable al nacer y proporcionamos el valor específico de este indicador para el año 2019.
 
 ## Metodología
